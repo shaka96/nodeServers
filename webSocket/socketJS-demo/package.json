@@ -1,0 +1,23 @@
+{
+  "name": "websocket-demo",
+  "version": "0.0.0",
+  "description": "websocket demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaka96/nodeServers/webSocket/socketJS.git"
+  },
+  "keywords": [
+    "websocket",
+    "demo"
+  ],
+  "author": "aryan.chen <aryan86_2014@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nodejs-websocket": "^1.7.1",
+    "socket.io": "^2.1.1"
+  }
+}
