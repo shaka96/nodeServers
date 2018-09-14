@@ -1,12 +1,15 @@
-[web-socket-js](https://www.bootcdn.cn/web-socket-js/)
-HTML5 Web Socket implementation powered by Flash.
-<script src="https://cdn.bootcss.com/web-socket-js/1.0.0/web_socket.js"> </script>
+##socketJS-demo
 
-<script src="https://cdn.bootcss.com/web-socket-js/1.0.0/web_socket.min.js"> </script>
+[web-socket-js](https://www.bootcdn.cn/web-socket-js/)
+> HTML5 Web Socket implementation powered by Flash.
+### source:
+1. https://cdn.bootcss.com/web-socket-js/1.0.0/web_socket.js
+
+2. https://cdn.bootcss.com/web-socket-js/1.0.0/web_socket.min.js
 
 <!-- <script src="https://cdn.bootcss.com/web-socket-js/1.0.0/WebSocketMain.swf"> </script> -->
 
-https://cdn.bootcss.com/web-socket-js/1.0.0/WebSocketMain.swf
+3. https://cdn.bootcss.com/web-socket-js/1.0.0/WebSocketMain.swf
 
 
 > WebSocket API 使用很简单，通过WebSocket()构建函数创建一个套接字：
@@ -39,4 +42,5 @@ https://cdn.bootcss.com/web-socket-js/1.0.0/WebSocketMain.swf
 
 ### express模块
  [socketJS-demo\express\app.js](https://github.com/shaka96/nodeServers/blob/master/webSocket/socketJS-demo/express/app.js)
+
  2. [Node.js项目目录文件介绍](https://blog.csdn.net/ZHQ_CSDN_Code/article/details/52903426) 
