@@ -13,7 +13,8 @@ https://cdn.bootcss.com/web-socket-js/1.0.0/WebSocketMain.swf
 ```
     var socket = new WebSocket("ws://ws.example.com:1234/resource");
 ```
-    WebSocket()构造函数的参数是一个URL，
+
+> WebSocket()构造函数的参数是一个URL，
 *   该URL使用ws://协议（或安全连接的 wss://协议）。
     该URL指定要连接的主机，还可指定端口（WebSocket使用和HTTP/HTTPS一样的默认端口）
     和路径/资源。
@@ -26,14 +27,16 @@ https://cdn.bootcss.com/web-socket-js/1.0.0/WebSocketMain.swf
     };
 ```    
 *   为通过套接字发送数据给服务器， 可调用套接字的send()方法:
+```
     socket.send("Hello, server！");
+```
     通过调用close()方法来关闭WebSocket。
 *   每个基于WebSocket的服务都要定义自己的"子协议",用于客户端和服务器端传输数据。
  
 ### fs模块
- socketJS-demo\utils\getFiles.js
- [getFiles.js](https://blog.csdn.net/qq_36245035/article/details/81070081)
+ [socketJS-demo\utils\getFiles.js](https://github.com/shaka96/nodeServers/blob/master/webSocket/socketJS-demo/utils/getFiles.js)
+ 1. [node获取任意文件的路径](https://blog.csdn.net/qq_36245035/article/details/81070081)
 
 ### express模块
- socketJS-demo\express\app.js
- [app.js](https://blog.csdn.net/ZHQ_CSDN_Code/article/details/52903426) 
+ [socketJS-demo\express\app.js](https://github.com/shaka96/nodeServers/blob/master/webSocket/socketJS-demo/express/app.js)
+ 2. [Node.js项目目录文件介绍](https://blog.csdn.net/ZHQ_CSDN_Code/article/details/52903426) 

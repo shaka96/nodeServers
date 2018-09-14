@@ -1,2 +1,6 @@
 /node_modules
-*/node_modules
+**/node_modules
+/webSocket/socket.io
+/webSocket/socket.io-client
+/webSocket/web-socket-js
+/webSocket/sockjs-client/
